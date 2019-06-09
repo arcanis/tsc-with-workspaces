@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "strict": true,
+    "target": "es2017",
+    "lib": ["dom", "es2017", "esnext.asynciterable"]
+  },
+  "include": [
+    "packages/*/sources/**/*",
+  ]
+}
